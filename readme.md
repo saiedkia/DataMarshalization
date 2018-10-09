@@ -1,0 +1,1 @@
+easily convert an object to byte array and vice versa
