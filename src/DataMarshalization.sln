@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMarshalization", "DataMarshalization\DataMarshalization.csproj", "{B33F7551-2F92-4A6C-BD60-0384483CF266}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMarshalization", "DataMarshalization\DataMarshalization.csproj", "{B33F7551-2F92-4A6C-BD60-0384483CF266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataMarshalizationTest", "DataMarshalizationTest\DataMarshalizationTest.csproj", "{8D846804-4B7E-43DE-8EF3-7EB21AA67B92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B33F7551-2F92-4A6C-BD60-0384483CF266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B33F7551-2F92-4A6C-BD60-0384483CF266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B33F7551-2F92-4A6C-BD60-0384483CF266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D846804-4B7E-43DE-8EF3-7EB21AA67B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D846804-4B7E-43DE-8EF3-7EB21AA67B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D846804-4B7E-43DE-8EF3-7EB21AA67B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D846804-4B7E-43DE-8EF3-7EB21AA67B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
