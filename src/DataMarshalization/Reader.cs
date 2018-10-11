@@ -13,13 +13,11 @@ namespace DataMarshalization
 
         public static T Read<T>(byte[] data)
         {
+            BinaryFormatter formatter = new BinaryFormatter();
             using (MemoryStream memory = new MemoryStream())
             {
-
-                BinaryFormatter formatter = new BinaryFormatter();
                 memory.Write(data, 0, data.Length);
                 memory.Seek(0, SeekOrigin.Begin);
-                object x = formatter.Deserialize(memory);
                 return (T)formatter.Deserialize(memory);
             }
         }

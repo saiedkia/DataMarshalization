@@ -18,9 +18,9 @@ namespace DataMarshalization
             }
         }
 
-        public static bool Save(byte[] data, string path)
+        public static void Save(byte[] data, string path)
         {
-            return true;
+            File.WriteAllBytes(path, data);
         }
     }
 }
